@@ -1,0 +1,98 @@
+body{
+    background-color: whitesmoke;
+    background-image: url('../image/satellite-france-resized.jpg');
+    background-size:250lvh;
+    background-repeat: no-repeat;
+    background-position:top;
+   
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.5rem; 
+    color: black;
+    padding: 1rem;
+}
+.box-titre{
+    width: 100%;
+    background-image: url('../image/french-flag.png') ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+#repos{
+    width: 98%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding:0.3rem;
+    margin :.5rem
+}
+
+legend{   
+    font-size: 2rem;
+    display: flex;
+    margin: .5rem;
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+.edit-box{
+    color: rgb(148, 141, 141);
+}
+.edited {
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+.edited-keyword{
+    font-weight: bolder;
+    color: rgb(2, 2, 2);
+    font-size: 1rem;
+}
+
+
+/* formulaire de recherche */
+.searchform{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchformInput {
+width: 80%;
+}
+#inputSearch{
+    height: 1.5rem;
+}
+.labelInput{
+    background-color: rgb(255, 250, 250);
+    padding: 0.3rem;
+    margin-left: .6rem;
+    width: 50%;
+}
+.searchButton{
+width: 30%;
+}
+.divsearch{
+    display: flex;
+    margin: .5rem;
+}
+
+
+/* resultat formatage page */
+.formatageBox{
+    display: flex;
+    justify-content: space-between;
+}
+.result{
+    color: white;
+}
